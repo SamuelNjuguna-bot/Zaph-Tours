@@ -1,8 +1,9 @@
+/* Hero Section */
 .hero{
     min-width:60vh; 
     min-height: 80vh;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url(../../assets/hero-section/diani1.jpeg);
+    url(../../assets/hero-section/diani5.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,4 +31,93 @@ font-size: 5rem;
     .hero{
         min-width: 30vh;
     }
+}
+
+/* About-Us Section */
+.about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    margin-top: 2rem;
+    min-height: 20vh;
+    border-radius: .5rem;
+}
+.about-us-heading{
+     font-family: inherit;
+     font-size: 4rem;
+}
+.about-us-exercept{
+    color: black;
+    font-size: 3rem;
+    font-family:inherit;
+    text-align: center;
+}
+
+/* Featured Destinations */
+.featured-header-titte{
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-top: 3rem;
+    font-size: 4rem;
+    background-color: var(--color-blue);
+}
+.featured-destinations{
+    display: flex;
+    background-color: var(--color-blue);
+    min-height: 70vh;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+
+
+}
+.feature1{
+    
+    height: 70vh;
+    border-radius: 10px;
+    width: 50vh;
+    background-color: white;
+   
+}
+.feature1 img{
+    height: 80%;
+    width: 100%;
+}
+.feature1 p{
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 2rem;
+line-height: 3rem;
+font-weight: 700;
+font-style: italic;
+}
+.div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+    
+}
+.btn{
+    background-color: var(--color-blue);
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem auto;
+    border-radius: .5rem;
+    color: white;
+    font-size: 2rem;
+    border: none;
+    box-shadow: 7px 10px 12px -7px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 7px 10px 12px -7px rgba(0,0,0,0.55);
+    -moz-box-shadow: 7px 10px 12px -7px rgba(0,0,0,0.55);
+}
+.btn:hover{
+cursor: pointer;
+color:var(--secondary-color);
+background-color: aliceblue;
+box-shadow: none;
 }
