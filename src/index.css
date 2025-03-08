@@ -8,6 +8,7 @@
 :root{
   --primary-color:#0000;
   --secondary-color:  #fa5407;
+  --light-grey: #ebe8e800;
   --color-blue: #76ABDF ;
   --primary-font:  "Playfair Display", serif;
   
@@ -17,6 +18,7 @@ html{
 }
 body{
   font-size: 1.6rem;
+ 
 }
 a{
 text-decoration: none;

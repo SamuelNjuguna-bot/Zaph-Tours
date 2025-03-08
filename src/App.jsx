@@ -1,7 +1,7 @@
 
 import './App.css'
 import Header from './componets/Header/Header'
-import Home from './pages/Home'
+import Home from './pages/Home/Home'
 import Trip from './pages/trip'
 import Contact from './pages/contact'
 import Destinaton from './pages/destination'
