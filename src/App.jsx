@@ -3,7 +3,7 @@ import Header from "./componets/Header/Header";
 import Home from "./pages/Home/Home";
 import Trip from "./pages/trip";
 import Contact from "./pages/contact";
-import Destinaton from "./pages/destination";
+import Destinaton from "./pages/Destinations/destination";
 import { Routes, Route } from "react-router-dom";
 import { Footer } from "./componets/Footer/footer";
 
