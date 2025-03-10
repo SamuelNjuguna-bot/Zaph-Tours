@@ -115,6 +115,7 @@
   box-shadow: 7px 10px 12px -7px rgba(0, 0, 0, 0.55);
   -webkit-box-shadow: 7px 10px 12px -7px rgba(0, 0, 0, 0.55);
   -moz-box-shadow: 7px 10px 12px -7px rgba(0, 0, 0, 0.55);
+  transition: all 1s;
 }
 .btn:hover {
   cursor: pointer;
@@ -203,3 +204,107 @@ background-color: rgba(0, 0, 0, 0.5);
     width: 30vh;
   }
 }
+/* News Subscribe */
+.subscribe-heading{
+  display: flex;
+  justify-content: center;
+  color: black;
+  margin-top: 3rem;
+  font-size: 2rem;
+  padding: 3rem;
+}
+.news-subscribe{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  background:
+  linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(../../assets/Subscribe/subscribe.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+}
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subscribe{
+  padding: 2rem 15rem;
+  border: none;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem ;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  outline: none;
+  margin: 0;
+}
+.subscribe-btn{
+  border-top-right-radius: 1rem;
+  border: none;
+  border-bottom-right-radius: 1rem ;
+  outline: none;
+  padding: 2rem 5rem;
+  background-color: red;
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  transition: all 1s;
+}
+.news-header-tagline{
+  color: white;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.subscribe-btn:hover{
+ background-color: var(--color-blue);
+ cursor: pointer;
+
+}
+@media screen and (max-width:56.25em){
+  .news-header-tagline{
+    font-size: 2rem;
+  }
+  .subscribe{
+    padding: 1rem 10rem;
+    font-size: 2rem;
+  }
+  .subscribe-btn{
+    padding: 1rem 2rem;
+    
+  }
+}
+@media screen and (max-width:39.0625em){
+  .news-header-tagline{
+    font-size: 1rem;
+  }
+  .subscribe{
+    padding: 1rem 5rem;
+    font-size: 2rem;
+  }
+  .subscribe-btn{
+    padding: 1rem 1rem;
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width:31.25em){
+  .news-header-tagline{
+    font-size: 1rem;
+  }
+  .subscribe{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+  .subscribe-btn{
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    
+
+  }
+}
+

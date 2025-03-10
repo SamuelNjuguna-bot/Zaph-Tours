@@ -64,7 +64,10 @@ export default function Home() {
           
         </div>
       </section>
-      <sectiion className="news-bubscribe"><News/></sectiion>
+      <div className="subscribe-heading">
+        <h1>Subscribe To Our News</h1>
+      </div>
+      <sectiion className="news-subscribe"><News/></sectiion>
     </>
   );
 }
@@ -106,8 +109,8 @@ function News(){
   return (
     <>
     <div className="subscribe-container">
-      <div className="subscribe-heading">
-        <h1>Subscribe To Our News</h1>
+      <div className="news-header-tagline">
+        <h1>Subscribe Below For Exciting News and get Latest updates </h1>
       </div>
       <div className="form">
         <form action="">
