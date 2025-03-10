@@ -144,68 +144,63 @@
   align-items: center;
 }
 
-.testimonials-container{
-   display: flex;
-   gap: 3rem;
-   margin: 4rem 0;
-   justify-content: center;
-   flex-wrap: wrap;
-   min-height: 60vh;
-   border-radius: 1rem;
-   min-width: 90%;
-   box-shadow: 7px 10px 12px -7px rgba(0,0,0,0.3);
--webkit-box-shadow: 7px 10px 12px -7px rgba(0,0,0,0.55);
--moz-box-shadow: 7px 10px 12px -7px rgba(0,0,0,0.55);
-background-color: rgba(0, 0, 0, 0.5);
+.testimonials-container {
+  display: flex;
+  gap: 3rem;
+  margin: 4rem 0;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 60vh;
+  border-radius: 1rem;
+  min-width: 90%;
+  box-shadow: 7px 10px 12px -7px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 7px 10px 12px -7px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 7px 10px 12px -7px rgba(0, 0, 0, 0.55);
+  background-color: rgba(0, 0, 0, 0.5);
 }
-.user-feedback{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: white;
-    padding: 2rem;
-    padding-top: .2rem;
-    border-radius: 1rem;
-    min-height: 40vh;
+.user-feedback {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: white;
+  padding: 2rem;
+  padding-top: 0.2rem;
+  border-radius: 1rem;
+  min-height: 40vh;
 }
-.image-wrapper{
-    width: 10em;
-    height: 10em;
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.image-wrapper {
+  width: 10em;
+  height: 10em;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.image-wrapper img{
-    height: 100%;
-    width: 100%;
-    border-radius: inherit;
-    object-fit: cover;
-    
+.image-wrapper img {
+  height: 100%;
+  width: 100%;
+  border-radius: inherit;
+  object-fit: cover;
 }
-.tst{
-    width: 50vh;
-    line-height: 3rem;
-    font-size: 2rem;
-    text-align: center;
-
+.tst {
+  width: 50vh;
+  line-height: 3rem;
+  font-size: 2rem;
+  text-align: center;
 }
-.user{
-   
-    font-weight: 700;
-    font-size: 2.5rem;
-
+.user {
+  font-weight: 700;
+  font-size: 2.5rem;
 }
-@media screen and (max-width:37.5em){
-  .tst{
+@media screen and (max-width: 37.5em) {
+  .tst {
     width: 30vh;
   }
 }
 /* News Subscribe */
-.subscribe-heading{
+.subscribe-heading {
   display: flex;
   justify-content: center;
   color: black;
@@ -213,39 +208,39 @@ background-color: rgba(0, 0, 0, 0.5);
   font-size: 2rem;
   padding: 3rem;
 }
-.news-subscribe{
+.news-subscribe {
   margin-top: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 40vh;
   background:
-  linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(../../assets/Subscribe/subscribe.jpg);
+    linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../assets/Subscribe/subscribe.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% auto;
 }
-.form{
+.form {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.subscribe{
+.subscribe {
   padding: 2rem 15rem;
   border: none;
   border-top-left-radius: 1rem;
-  border-bottom-left-radius: 1rem ;
+  border-bottom-left-radius: 1rem;
   font-size: 2rem;
   font-weight: 700;
   text-transform: capitalize;
   outline: none;
   margin: 0;
 }
-.subscribe-btn{
+.subscribe-btn {
   border-top-right-radius: 1rem;
   border: none;
-  border-bottom-right-radius: 1rem ;
+  border-bottom-right-radius: 1rem;
   outline: none;
   padding: 2rem 5rem;
   background-color: red;
@@ -255,56 +250,51 @@ background-color: rgba(0, 0, 0, 0.5);
   text-transform: capitalize;
   transition: all 1s;
 }
-.news-header-tagline{
+.news-header-tagline {
   color: white;
   margin-bottom: 3rem;
   font-size: 3rem;
   font-weight: 700;
 }
-.subscribe-btn:hover{
- background-color: var(--color-blue);
- cursor: pointer;
-
+.subscribe-btn:hover {
+  background-color: var(--color-blue);
+  cursor: pointer;
 }
-@media screen and (max-width:56.25em){
-  .news-header-tagline{
+@media screen and (max-width: 56.25em) {
+  .news-header-tagline {
     font-size: 2rem;
   }
-  .subscribe{
+  .subscribe {
     padding: 1rem 10rem;
     font-size: 2rem;
   }
-  .subscribe-btn{
+  .subscribe-btn {
     padding: 1rem 2rem;
-    
   }
 }
-@media screen and (max-width:39.0625em){
-  .news-header-tagline{
+@media screen and (max-width: 39.0625em) {
+  .news-header-tagline {
     font-size: 1rem;
   }
-  .subscribe{
+  .subscribe {
     padding: 1rem 5rem;
     font-size: 2rem;
   }
-  .subscribe-btn{
+  .subscribe-btn {
     padding: 1rem 1rem;
     font-size: 2rem;
   }
 }
-@media screen and (max-width:31.25em){
-  .news-header-tagline{
+@media screen and (max-width: 31.25em) {
+  .news-header-tagline {
     font-size: 1rem;
   }
-  .subscribe{
+  .subscribe {
     padding: 1rem 2rem;
     font-size: 1rem;
   }
-  .subscribe-btn{
+  .subscribe-btn {
     padding: 1rem 1rem;
     font-size: 1rem;
-    
-
   }
 }
-

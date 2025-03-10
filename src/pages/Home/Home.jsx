@@ -7,7 +7,7 @@ import img4 from "../../assets/featured-places/Nairobi_National_Park.jpg";
 import img5 from "../../assets/featured-places/L.Nakuru.jpg";
 import img6 from "../../assets/featured-places/mt Lonogonot.jpeg";
 import img7 from "../../assets/testimonials/susan.jpg";
-import img8 from "../../assets/testimonials/John Lee .jpg"
+import img8 from "../../assets/testimonials/John Lee .jpg";
 
 import "./Home.css";
 export default function Home() {
@@ -41,12 +41,11 @@ export default function Home() {
           url={img4}
         />
       </div>
-    
+
       <div className="featured-header-titte-testimonial">
         <h1 className="featured-header-titte-testimoy">Testimonials</h1>
       </div>
       <section className="testimonials">
-        
         <div className="testimonials-container">
           <Testimonies
             userProfilePic={img7}
@@ -55,19 +54,21 @@ export default function Home() {
             }
             username={"Susan Michaels"}
           />
-                    <Testimonies
+          <Testimonies
             userProfilePic={img8}
             feedback={
-              "Our safari experience was beyond amazing! Not only did we witness breathtaking wildlife up close, but we also got to relax on incredible sand beaches with stunning views and especially Diani Beach. The combination of adventure and serenity made this trip unforgettable. Exceptional service, beautiful landscapes, and memories that will last a lifetime!"}
+              "Our safari experience was beyond amazing! Not only did we witness breathtaking wildlife up close, but we also got to relax on incredible sand beaches with stunning views and especially Diani Beach. The combination of adventure and serenity made this trip unforgettable. Exceptional service, beautiful landscapes, and memories that will last a lifetime!"
+            }
             username={"John Lee"}
           />
-          
         </div>
       </section>
       <div className="subscribe-heading">
         <h1>Subscribe To Our News</h1>
       </div>
-      <sectiion className="news-subscribe"><News/></sectiion>
+      <sectiion className="news-subscribe">
+        <News />
+      </sectiion>
     </>
   );
 }
@@ -87,7 +88,7 @@ function Featured({ description, price, url }) {
   );
 }
 
-function Testimonies({username,userProfilePic, feedback }) {
+function Testimonies({ username, userProfilePic, feedback }) {
   return (
     <>
       <div className="user-feedback">
@@ -95,33 +96,32 @@ function Testimonies({username,userProfilePic, feedback }) {
           <img src={userProfilePic} alt="" />
         </div>
         <div className="tst">
-        <p className="user">{username}</p>
-        <p className="testimony">{feedback}</p>
+          <p className="user">{username}</p>
+          <p className="testimony">{feedback}</p>
         </div>
-        
       </div>
     </>
   );
 }
 
-
-function News(){
+function News() {
   return (
     <>
-    <div className="subscribe-container">
-      <div className="news-header-tagline">
-        <h1>Subscribe Below For Exciting News and get Latest updates </h1>
-      </div>
-      <div className="form">
-        <form action="">
-          <input type="text" className="subscribe"  placeholder="Enter Your email"/>
-          <button className="subscribe-btn">Subscribe</button>
-        </form>
-        
-        
+      <div className="subscribe-container">
+        <div className="news-header-tagline">
+          <h1>Subscribe Below For Exciting News and get Latest updates </h1>
         </div>
-    </div>
-    
+        <div className="form">
+          <form action="">
+            <input
+              type="text"
+              className="subscribe"
+              placeholder="Enter Your email"
+            />
+            <button className="subscribe-btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
     </>
-  )
+  );
 }
