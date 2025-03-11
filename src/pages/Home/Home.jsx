@@ -20,10 +20,7 @@ export default function Home() {
       <div className="about-us">
         <h1 className="about-us-heading">About Us</h1>
         <p className="about-us-exercept">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-          alias atque pariatur vero placeat doloremque sed. Vitae incidunt
-          explicabo laborum, numquam, vel nisi, rerum animi molestias
-          voluptatibus repellat eaque. Neque.
+        Discover the ultimate travel experiences tailored to your desires! Our platform offers a diverse range of trip types, from thrilling adventure activities like surfing and hiking to serene wellness retreats, cultural explorations, and luxury beach holidays. Whether you're looking to explore breathtaking safaris, immerse yourself in eco-tours, or indulge in fine dining and African culinary delights, we have something for every traveler. Plan your perfect getaway today and create unforgettable memories!
         </p>
       </div>
       <div className="featured-header">
