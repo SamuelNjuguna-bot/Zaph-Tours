@@ -13,10 +13,10 @@ import "./Home.css";
 export default function Home() {
   return (
     <>
-      <section className="hero">
+      <div className="hero">
         <h2 className="hero-tagline">Explore World With Us</h2>
         <p className="motto">Hakuna Matata</p>
-      </section>
+      </div>
       <div className="about-us">
         <h1 className="about-us-heading">About Us</h1>
         <p className="about-us-exercept">
@@ -45,7 +45,7 @@ export default function Home() {
       <div className="featured-header-titte-testimonial">
         <h1 className="featured-header-titte-testimoy">Testimonials</h1>
       </div>
-      <section className="testimonials">
+      <div className="testimonials">
         <div className="testimonials-container">
           <Testimonies
             userProfilePic={img7}
@@ -62,13 +62,13 @@ export default function Home() {
             username={"John Lee"}
           />
         </div>
-      </section>
+      </div>
       <div className="subscribe-heading">
         <h1>Subscribe To Our News</h1>
       </div>
-      <sectiion className="news-subscribe">
+      <div className="news-subscribe">
         <News />
-      </sectiion>
+      </div>
     </>
   );
 }
